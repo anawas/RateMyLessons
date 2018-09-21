@@ -1,0 +1,60 @@
+* {
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background: white;
+}
+
+.rating-board {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 10000px;
+}
+
+.rate-button {
+    width: calc(150px);
+    height: calc(150px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1.0);
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    border-radius: 50%;
+    border: 2px black solid;
+}
+
+.centered {
+    position: fixed;
+    top: 0%;  
+}
+
+.rate-button:active {
+    transform: scale(0.9);
+    transition: transform 0.1s;
+}
+
+.very-bad {
+  background: #aa0000;
+}
+
+.bad {
+  background: #ff0000;
+}
+.ok {
+  background: #ffff00;
+}
+.good {
+  background: #00ff00;
+}
+.very-good {
+  background: #008800;
+}
+
