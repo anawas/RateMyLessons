@@ -16,10 +16,15 @@ h1 {
   font-family: "Verdana", "Helvetica", "Arial", sans-serif;
 }
 
+table {
+  table-layout: fixed;
+}
+
 td {
   margin: 0;
   padding: 0;
   text-align: center;
+  width: 20%;
 }
 
 .page-title {
@@ -35,6 +40,7 @@ td {
     flex-wrap: wrap;
     position: absolute;
     left: 0px;
+    top:20%;
 }
 
 .rate-button {
