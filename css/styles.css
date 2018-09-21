@@ -39,6 +39,7 @@ body {
 .rate-button:active {
     transform: scale(0.9);
     transition: transform 0.1s;
+    -webkit-transition: transform 0.1s;
 }
 
 .very-bad {
