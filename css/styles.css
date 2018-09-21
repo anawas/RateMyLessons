@@ -5,18 +5,36 @@
 }
 
 body {
+    width: 100vw;
     height: 100vh;
     display: flex;
     background: white;
+    font-family: "Verdana", "Helvetica", "Arial", sans-serif;
 }
 
+h1 {
+  font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+}
+
+td {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.page-title {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
 .rating-board {
     width: 1000px;
     height: 300px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    perspective: 10000px;
+    position: absolute;
+    left: 0px;
 }
 
 .rate-button {
@@ -31,9 +49,12 @@ body {
     border: 2px black solid;
 }
 
+.rating-text {
+  font-size: 20px;
+}
+
 .centered {
     position: fixed;
-    top: 0%;  
 }
 
 .rate-button:active {
