@@ -36,8 +36,6 @@ td {
     width: 1000px;
     height: 300px;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
     position: absolute;
     left: 0px;
     top:20%;
@@ -49,8 +47,8 @@ td {
     margin: 5px;
     position: relative;
     transform: scale(1.0);
-    transform-style: preserve-3d;
-    transition: transform 0.5s;
+    transition: transform 0.2s;
+    -webkit-transition: transform 0.2s;
     border-radius: 50%;
     border: 2px black solid;
 }
@@ -65,8 +63,8 @@ td {
 
 .rate-button:active {
     transform: scale(0.9);
-    transition: transform 0.1s;
-    -webkit-transition: transform 0.1s;
+    transition: transform 0.2s;
+    -webkit-transition: transform 0.2s;
 }
 
 .very-bad {
