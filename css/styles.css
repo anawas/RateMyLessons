@@ -54,7 +54,7 @@ td {
     transition: transform 0.2s;
     -webkit-transition: transform 0.2s;
     border-radius: 50%;
-    border: 2px black solid;
+    border: 2px gray solid;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -74,19 +74,28 @@ td {
 
 
 .very-bad {
-  background: #aa0000;
+  background-image: url("../img/pushbutton very bad.png");
+  background-position: center;
+  background-size: calc(155px);
 }
-
 .bad {
-  background: #ff0000;
+  background-image: url("../img/pushbutton bad.png");
+  background-position: center;
+  background-size: calc(155px);
 }
 .ok {
-  background: #ffff00;
+  background-image: url("../img/pushbutton ok.png");
+  background-position: center;
+  background-size: calc(155px);
 }
 .good {
-  background: #00ff00;
+  background-image: url("../img/pushbutton good.png");
+  background-position: center;
+  background-size: calc(155px);
 }
 .very-good {
-  background: #008800;
+  background-image: url("../img/pushbutton very good.png");
+  background-position: center;
+  background-size: calc(155px);
 }
 
